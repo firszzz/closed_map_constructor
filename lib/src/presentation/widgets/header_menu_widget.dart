@@ -26,7 +26,7 @@ class _HeaderMenuState extends State<HeaderMenu> {
           ),
         ),
         child: FractionallySizedBox(
-          widthFactor: 0.3,
+          widthFactor: 0.4,
           alignment: Alignment.centerLeft,
           child: Padding(
             padding: const EdgeInsets.all(8.0),
