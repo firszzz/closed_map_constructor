@@ -10,7 +10,7 @@ class RightMenuWidget extends StatefulWidget {
 }
 
 class _RightMenuWidgetState extends State<RightMenuWidget> {
-  double menuWidth = 250;
+  double menuWidth = 0;
 
   @override
   Widget build(BuildContext context) {

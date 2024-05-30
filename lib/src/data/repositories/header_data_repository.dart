@@ -5,12 +5,12 @@ class HeaderDataRepository {
   Future<List<HeaderOption>> getHeaderOptions() async {
     return[
       /// TODO Control map option
-      HeaderOption(
+      /*HeaderOption(
         icon: const Icon(Icons.ads_click, color: Colors.black, ),
         callback: () {
           print('select option');
         },
-      ),
+      ),*/
 
       /// Polygon option
       HeaderOption(
@@ -28,7 +28,7 @@ class HeaderDataRepository {
         },
       ),
 
-      /// TODO Marker option
+    /*  /// TODO Marker option
       HeaderOption(
         icon: const Icon(Icons.icecream_sharp, color: Colors.black,),
         callback: () {
@@ -50,7 +50,7 @@ class HeaderDataRepository {
         callback: () {
           print('wall option');
         },
-      ),
+      ), */
     ];
   }
 }
